@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 60" width="260" height="60" role="img" aria-label="CaveUI">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&amp;display=swap');
+      .wordmark {
+        font-family: 'Urbanist', system-ui, sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        fill: #ffffff;
+      }
+    </style>
+    <mask id="leafCutout">
+      <rect width="400" height="400" fill="#ffffff"/>
+      <g transform="translate(200 200) scale(1.2) translate(-196.47 -209.065)">
+        <path fill="#000000"
+          d="M243.7,418.13C198.37,312.3,118.14,268.5,0,294.73,135.19,238.54,203.38,148.99,149.24,0c49.45,103.91,130.68,145.05,243.7,123.4-127.69,63.18-168.91,165.26-149.24,294.73Z"/>
+      </g>
+    </mask>
+  </defs>
+
+  <g transform="translate(0 8) scale(0.11)">
+    <circle cx="200" cy="200" r="200" fill="#ffffff" mask="url(#leafCutout)"/>
+  </g>
+
+  <text x="58" y="30" class="wordmark" dominant-baseline="central">CaveUI</text>
+</svg>
