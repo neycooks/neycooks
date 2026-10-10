@@ -1,10 +1,22 @@
+<!-- ==================== GLOBAL FONT ==================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+  * { font-family: 'Inter', system-ui, -apple-system, sans-serif !important; }
+  h1, h2, h3, h4 { font-family: 'Inter', system-ui, sans-serif !important; font-weight: 700; letter-spacing: -0.02em; }
+  p, sub, em, strong, td, th { font-family: 'Inter', system-ui, sans-serif !important; }
+  hr { border: none; border-top: 1px solid #262626; margin: 40px 0; }
+</style>
+
 <!-- ==================== HEADER ==================== -->
 <div align="center">
 
-  <h1>hey, i'm niko 👋</h1>
+  <h1>hey, i'm niko</h1>
 
   <p>
-    <strong>16 y/o dev</strong> · people call me <strong>ney</strong><br/>
+    <strong>16 y/o developer</strong> · people call me <strong>ney</strong><br/>
     <sub>building clean things for the web & beyond</sub>
   </p>
 
@@ -12,15 +24,19 @@
     <a href="https://github.com/neycooks">
       <img src="https://img.shields.io/badge/GitHub-181818?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
+    &nbsp;
     <a href="https://discord.com/users/YOUR_DISCORD_ID">
       <img src="https://img.shields.io/badge/Discord-181818?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
     </a>
+    &nbsp;
     <a href="https://github.com/neycooks/neycooks/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/License-MIT-181818?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License" />
     </a>
   </p>
 
 </div>
+
+<br/>
 
 ---
 
@@ -48,24 +64,24 @@
   <circle cx="44" cy="20" r="4" fill="#ffffff" fill-opacity="0.25"/>
   <circle cx="58" cy="20" r="4" fill="#ffffff" fill-opacity="0.25"/>
 
-  <text x="30" y="60" font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="13" fill="#8b949e">// about</text>
+  <text x="30" y="60" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#8b949e">about</text>
 
-  <text x="30" y="92" font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="15" fill="#ffffff">
+  <text x="30" y="92" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#ffffff">
     <tspan fill="#7d8590">name</tspan>     : Niko
   </text>
-  <text x="30" y="116" font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="15" fill="#ffffff">
+  <text x="30" y="116" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#ffffff">
     <tspan fill="#7d8590">alias</tspan>    : ney
   </text>
-  <text x="30" y="140" font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="15" fill="#ffffff">
+  <text x="30" y="140" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#ffffff">
     <tspan fill="#7d8590">age</tspan>      : 16
   </text>
-  <text x="30" y="164" font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="15" fill="#ffffff">
+  <text x="30" y="164" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#ffffff">
     <tspan fill="#7d8590">role</tspan>     : developer
   </text>
-  <text x="30" y="188" font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="15" fill="#ffffff">
+  <text x="30" y="188" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#ffffff">
     <tspan fill="#7d8590">focus</tspan>    : web · tooling · ui
   </text>
-  <text x="30" y="212" font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="15" fill="#ffffff">
+  <text x="30" y="212" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#ffffff">
     <tspan fill="#7d8590">status</tspan>   : always shipping
   </text>
 
@@ -76,16 +92,18 @@
   <g transform="translate(470 78)" opacity="0.9">
     <circle cx="60" cy="60" r="58" fill="none" stroke="#262626" stroke-width="2"/>
     <circle cx="60" cy="60" r="40" fill="none" stroke="#262626" stroke-width="2"/>
-    <text x="60" y="68" text-anchor="middle" font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="22" font-weight="700" fill="#ffffff">ney</text>
+    <text x="60" y="68" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">ney</text>
   </g>
 </svg>
 
 </div>
 
+<br/>
+
 ---
 
 <!-- ==================== LANGUAGES & TOOLS ==================== -->
-### 🛠️ languages & tools
+<h3>languages & tools</h3>
 
 <div align="center">
 
@@ -123,70 +141,71 @@
 
 </div>
 
+<br/>
+
 ---
 
 <!-- ==================== GITHUB STATS ==================== -->
-### 📊 GitHub Stats
+<h3>github stats</h3>
 
 <div align="center">
 
   <img height="180" src="https://github-readme-stats.shion.dev/api?username=neycooks&theme=dark&hide_border=false&include_all_commits=false&count_private=false&bg_color=181818&border_color=262626&title_color=ffffff&text_color=c9d1d9&icon_color=ffffff&border_radius=24" alt="GitHub Stats" />
-  <br/>
+
+  <br/><br/><br/>
+
   <img height="180" src="https://streak-stats.demolab.com/?user=neycooks&theme=dark&hide_border=false&background=181818&border=262626&stroke=262626&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=c9d1d9&dates=7d8590&currStreakNum=ffffff&sideNums=ffffff&border_radius=24" alt="GitHub Streak" />
-  <br/>
+
+  <br/><br/><br/>
+
   <img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=neycooks&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact&bg_color=181818&border_color=262626&title_color=ffffff&text_color=c9d1d9&border_radius=24" alt="Top Languages" />
 
 </div>
 
----
-
-<!-- ==================== TROPHIES ==================== -->
-### 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=neycooks&theme=dark&no-frame=false&no-bg=false&margin-w=4&column=6&row=1" alt="Trophies" />
-</div>
+<br/>
 
 ---
 
-<!-- ==================== DEV QUOTE ==================== -->
-### ✍️ Random Dev Quote
+<!-- ==================== PROJECT: CAVEUI ==================== -->
+<h3>project — CaveUI</h3>
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
-</div>
 
----
-
-<!-- ==================== TOP CONTRIBUTED REPO ==================== -->
-### 🔝 Top Contributed Repo
-
-<div align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=neycooks&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repos" />
-</div>
-
----
-
-<!-- ==================== PROJECT: CAVEUI (logo only here) ==================== -->
-### 🏔️ project — CaveUI
-
-<div align="center">
   <img src="https://raw.githubusercontent.com/neycooks/neycooks/main/logo.svg" alt="CaveUI" width="260" height="60" />
+
   <br/><br/>
-  <em>A lightweight, accessible, and fully customizable component library.</em>
+
+  <p>
+    CaveUI is a modern, lightweight component library built for developers who care about
+    clean design and fast performance. It provides ready-to-use, accessible components
+    inspired by the interfaces of top brands and products across the web, so you can
+    ship polished UIs without rebuilding the same primitives from scratch.
+  </p>
+
+  <p>
+    Themeable with design tokens, tree-shakeable, WAI-ARIA compliant, and under 10kb gzipped
+    at its core.
+  </p>
+
+  <br/>
+
+  <a href="https://github.com/neycooks/neycooks">
+    <img src="https://img.shields.io/badge/View%20Project-181818?style=for-the-badge&logo=github&logoColor=white" alt="View CaveUI" />
+  </a>
+
 </div>
 
 <br/>
 
-```tsx
-import { Button, Card, Modal } from '@caveui/react';
+---
 
-export default function App() {
-  return (
-    <Card>
-      <h1>CaveUI</h1>
-      <p>Build stunning interfaces in minutes.</p>
-      <Button variant="primary">Get Started</Button>
-    </Card>
-  );
-}
+<!-- ==================== FOOTER ==================== -->
+<div align="center">
+
+  <sub>built with care — niko / ney</sub>
+
+  <br/><br/>
+
+  <img src="https://komarev.com/ghpvc/?username=neycooks&icon=0&color=181818&label=visitors&style=for-the-badge" alt="Profile Views" />
+
+</div>
